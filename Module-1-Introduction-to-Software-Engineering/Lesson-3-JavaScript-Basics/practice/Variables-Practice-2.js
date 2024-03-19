@@ -21,3 +21,6 @@ ${houseNum}, ${street}
 ${city}, ${state}
 ${zip}`
 
+const fName = "Michael"
+const lName = "Richman"
+console.log(address)
