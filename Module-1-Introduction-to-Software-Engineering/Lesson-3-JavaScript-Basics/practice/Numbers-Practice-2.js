@@ -45,4 +45,3 @@ console.log(q8)
 
 const q9 = Math.random() * 10;
 console.log(q9)
-
