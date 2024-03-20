@@ -19,30 +19,30 @@
 
 // Create a random number between 0-10
 
-let q1 = Math.sqrt(25)
+const q1 = Math.sqrt(25)
 console.log(q1)
 
-let q2 = Math.pow(3,5)
+const q2 = Math.pow(3,5)
 console.log(q2)
 
-let q3 = Math.round(7.4)
+const q3 = Math.round(7.4)
 console.log(q3)
 
-let q4 = Math.ceil(7.4)
+const q4 = Math.ceil(7.4)
 console.log(q4)
 
-let q5 = Math.abs(-13)
+const q5 = Math.abs(-13)
 console.log(q5)
 
-let q6 = Math.min(12,13,14,15,2,-1)
+const q6 = Math.min(12,13,14,15,2,-1)
 console.log (q6)
 
-let q7 = Math.max(12,13,14,15,2,-1)
+const q7 = Math.max(12,13,14,15,2,-1)
 console.log (q7)
 
-let q8 = Math.random();
+const q8 = Math.random();
 console.log(q8)
 
-let q9 = Math.random() * 10;
+const q9 = Math.random() * 10;
 console.log(q9)
 
