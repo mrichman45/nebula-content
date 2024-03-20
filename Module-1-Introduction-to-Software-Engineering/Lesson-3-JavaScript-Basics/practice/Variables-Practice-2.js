@@ -16,11 +16,17 @@ New York, NY
 18062 
 */
 
+const fName = "Michael"
+const lName = "Richman"
+const houseNum = 275
+const street = "Maple Avenue"
+const city = "Rockville Centre"
+const state = "New York"
+const zip = 11570
+
 const address = `${fName} ${lName} 
 ${houseNum}, ${street}
 ${city}, ${state}
 ${zip}`
 
-const fName = "Michael"
-const lName = "Richman"
 console.log(address)
