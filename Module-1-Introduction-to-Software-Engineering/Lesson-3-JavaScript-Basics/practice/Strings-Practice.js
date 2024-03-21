@@ -50,4 +50,4 @@ console.log(addVariable = +ten + +five)
 
 const sentence = 'Welcome to the jungle!'; 
 
-console.log(sentence.split (" "))
+console.log(sentence.split (''))
