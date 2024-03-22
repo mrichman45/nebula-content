@@ -25,11 +25,11 @@ let odd = 7
 let odd2 = 3
 console.log(odd%odd2)
 // find the minimum value in a set of numbers: 10,20,30,40,50
-Math.floor(10,20,30,40,50)
-console.log(Math.floor(10,20,30,40,50))
+Math.min(10,20,30,40,50)
+console.log(Math.min(10,20,30,40,50))
 // find the maximum value in a set of numbers: -1,-2,-3,-4,-5
-Math.ceil(-1,-2,-3,-4,-5)
-console.log(Math.ceil(-1,-2,-3,-4,-5))
+Math.max(-1,-2,-3,-4,-5)
+console.log(Math.max(-1,-2,-3,-4,-5))
 // Create a variable and find it's remainder, if divided by 2
 let vari = 3
 console.log(vari%2)
