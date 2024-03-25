@@ -9,5 +9,25 @@
 // If position is 3, log to the console: "(Insert horseName) finished in third place!"
 // If position is greater than 4, log to the console: "(Insert horseName) did not finish in the top 3."
 
-let horseName;
-let position;
+let horseName = "Edgar";
+let position = Math.ceil(Math.random() * 4)
+
+switch(position){
+    
+case 1 :
+    console.log(`${horseName} finished first`);
+    console.log(position)
+    break;
+case 2 :
+    console.log(`${horseName} finished second`);
+    console.log(position)
+    break;
+case 3:
+    console.log(`${horseName} finished third`);
+    console.log(position)
+    break;
+case 4:
+    console.log(`${horseName} did not finish in the top 3`)
+    console.log(position)
+    break;
+}
