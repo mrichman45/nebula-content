@@ -38,6 +38,7 @@ const word22 = "also";
 const word23 = "like"; 
 
 console.log(`${word17} ${word23} ${word9}. `)
+
 // 4. Given the string of your full name get your initials.
 let fname = "Michael Richman"
 console.log (fname[0], fname[8])
@@ -49,16 +50,18 @@ console.log(greeting1[5])
 // 6. Find the index of the dash from 'Coding-Time!'
 const coding = 'Coding-Time!'
 console.log(coding.indexOf("-"))
+
 // 7. Write code to grab the final letter from a any string.
 const string = "string"
-console.log(string[5])
+console.log(string[string.length -1])
+
 // 8. Write code to grab the first 3 letters from a string. 
 let string3 = "Data"
-console.log(string2.slice(0,4))
+console.log(string3.slice(0,3))
 
 // 9. Turn the following string into an array of words: 'This-is-a-sentence';
 const sentence1 = 'This-is-a-sentence'
-let splitStringToArr = sentence1.split (" ")
+let splitStringToArr = sentence1.split ('-')
 console.log(splitStringToArr)
 
 // 10. Make the string of 12 from the following two numbers:
