@@ -17,9 +17,17 @@ while(true){
 // // // ex: Input: ['a','b','c', 100,'e']
 // // // Output: 'at index 3 there is the number 100'
 
+const arr = ['a','b','c', 100,'e']
+let i = 0
 
+for (let i=0; i<arr.length; i++){
+    if(arr.length === 3)
+    console.log("The Number is 100")
+break;
+}
 
 // 3. Using the continue keyword loop over an array of numbers & strings
 // // If the current element is a number skip it
 // // Otherwise add the element to an array
 // // After finishing the loop log the new array to the console
+
