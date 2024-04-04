@@ -26,7 +26,7 @@ console.log(car.engine)
 
 // 5.bAdd a new key-value pair to the vehicle. 
 
-car.engine = "V6"
+dreamCar.weight = '2769 lbs/ 1255 kg'
 
 // 6. Using bracket-notation update a property on the vehicle. 
 

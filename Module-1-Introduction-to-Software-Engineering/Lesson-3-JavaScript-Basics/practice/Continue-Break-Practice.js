@@ -2,12 +2,14 @@
 // // The loop should log the letter 'a' to the console
 // // STOP immediately after finding the letter 'a'
 
-const str = "This is the box with the letter a"
+let string = "This is a String"
 
-while(true){
-    if(str[32] === "a")
-    console.log("we found it")
-    break;
+for(let i = 0; i < string.length; i++){
+    let char = string[i]
+    if(char === 'a'){
+        console.log("a")
+        break;
+    }
 }
 
 
@@ -17,17 +19,31 @@ while(true){
 // // // ex: Input: ['a','b','c', 100,'e']
 // // // Output: 'at index 3 there is the number 100'
 
-const arr = ['a','b','c', 100,'e']
-let i = 0
+let arr = ['a','b','c', 100,'e']
 
-for (let i=0; i<arr.length; i++){
-    if(arr.length === 3)
-    console.log("The Number is 100")
-break;
+for(let i = 0; i < arr.length; i++){
+    const el = arr[i]
+    if(typeof(el) === 'number'){
+        console.log(`at index ${i} there is the number ${el}`)
+        break;   
+    }
 }
+
 
 // 3. Using the continue keyword loop over an array of numbers & strings
 // // If the current element is a number skip it
 // // Otherwise add the element to an array
 // // After finishing the loop log the new array to the console
 
+const arr2 = [1,4,'e',5,'a']
+const letters = []
+
+for(let i = 0; i< arr2.length; i++){
+    const el = arr[i]
+    
+    if(typeof(el) === 'number'){
+    continue;
+        
+    }letters.push(el)
+}
+console.log(letters)
