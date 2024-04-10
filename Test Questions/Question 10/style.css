@@ -1,0 +1,13 @@
+#my-element{
+    color: red;
+    font-size: 25px;
+    border: 2px solid black;
+    width: 245px;
+}
+
+.my-element2{
+    color: blue;
+    font-size: 25px;
+    border: 2px solid black;
+    width: 245px;
+}
